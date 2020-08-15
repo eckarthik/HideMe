@@ -4,3 +4,4 @@ dist
 hideme.egg-info
 .pypirc
 */__pycache__
+setup.py
