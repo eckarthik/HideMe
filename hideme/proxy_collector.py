@@ -36,8 +36,8 @@ class ProxiesList:
         }
         request = Request("https://free-proxy-list.net/",headers=headers)
         proxy_page_response = urlopen(request).read().decode()
-        proxies = re.findall(r"<td>([0-9\.]*)</td><td>([0-9]*)</td><td>([A-Z]{2})</td><td class='hm'>([a-zA-Z]*)</td>"
-                             r"<td>([a-zA-Z ]*)</td><td class='hm'>([a-z]*)</td><td class='hx'>([a-zA-Z]*)</td>",
+        proxies = re.findall(r"<td>([0-9\.]*)</td><td>([0-9]*)</td><td>([A-Z]*)</td><td class='hm'>([a-zA-Z ]*)</td>"
+                             r"<td>([a-zA-Z0-9 ]*)</td><td class='hm'>([a-z]*)</td><td class='hx'>([a-zA-Z]*)</td>",
                              proxy_page_response)
         return [self.format(proxy) for proxy in proxies]
 
@@ -49,7 +49,9 @@ class ProxiesList:
             proxies_list = list(filter(lambda x:x[k] == v,proxies_list))
         return list(proxies_list)
 
-    def get(self,count=100):
+    def get(self,count=500):
         """Returns the requested number of proxies. Returns 100 proxies by default"""
 
         return self.filter_proxies()[:count]
+
+print(len(ProxiesList().get()))
