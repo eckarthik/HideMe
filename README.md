@@ -1,4 +1,4 @@
-# HideMe [![python](https://img.shields.io/badge/Python-universal-white.svg?style=style=flat-square)](https://www.python.org/downloads/)
+# HideMe [![Python Badge](https://img.shields.io/badge/-Python-00000??style=flat-square&logo=python&logoColor=FFD43B&color=informational)](https://www.python.org/downloads/) [![Build Status](https://travis-ci.org/eckarthik/HideMe.svg?branch=master)](https://travis-ci.org/eckarthik/HideMe)
 
 HideMe is a python package for gathering usable proxies from free proxy webites
 can be installed via pip as follows.
