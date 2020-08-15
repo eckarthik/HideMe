@@ -53,5 +53,3 @@ class ProxiesList:
         """Returns the requested number of proxies. Returns 100 proxies by default"""
 
         return self.filter_proxies()[:count]
-
-print(len(ProxiesList().get()))
