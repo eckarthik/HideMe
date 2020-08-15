@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="hideme", # Replace with your own username
-    version="0.0.5",
+    version="0.0.1",
     author="Karthik E C",
     author_email="eckarthik39@gmail.com",
     description="A Python package to fetch usable proxies from the internet",
