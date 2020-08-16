@@ -1,4 +1,4 @@
-# HideMe [![Python Badge](https://img.shields.io/badge/-Python-00000??style=flat-square&logo=python&logoColor=FFD43B&color=informational)](https://www.python.org/downloads/) [![Build Status](https://travis-ci.org/eckarthik/HideMe.svg?branch=master)](https://travis-ci.org/eckarthik/HideMe)
+# HideMe [![Python Badge](https://img.shields.io/badge/-Python-00000??style=flat-square&logo=python&logoColor=FFD43B&color=informational)](https://www.python.org/downloads/) [![Build Status](https://travis-ci.org/eckarthik/HideMe.svg?branch=master)](https://travis-ci.org/eckarthik/HideMe) [![Downloads](https://pepy.tech/badge/hideme)](https://pepy.tech/project/hideme) [![Downloads](https://pepy.tech/badge/hideme/week)](https://pepy.tech/project/hideme/week)
 
 HideMe is a python package for gathering usable proxies from free proxy webites
 can be installed via pip as follows.
@@ -9,7 +9,7 @@ pip install hideme
 
 ## Documentation
 
-Format of proxies returned by **HideMe** will be like this
+Format of proxies returned by **HideMe** is as shown below
 ```python
 [
    {
@@ -23,7 +23,7 @@ Format of proxies returned by **HideMe** will be like this
    }
 ]
 ```
-You can get the proxies like shown below
+You can get the proxies by creating a **ProxiesList** object and then calling get method on that
 
 ```python
 from hideme.proxy_collector import ProxiesList
@@ -47,7 +47,7 @@ Output:
 ]
 ```
 
-You can get the required number of proxies by passing count param to the get method.
+You can restrict the required number of proxies returned by passing count param to the get method.
 
 ```python
 from hideme.proxy_collector import ProxiesList
@@ -82,7 +82,7 @@ Output:
 
 
 
-You can also filter out the returned proxies by passing the filter params to the ProxiesList class. Example usages:-
+You can also filter out the returned proxies by passing the filter params to the **ProxiesList** class. Example usages:-
 
 This will return only those proxies which are in Country - **Spain**
 
