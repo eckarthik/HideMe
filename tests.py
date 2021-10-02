@@ -28,7 +28,7 @@ class HideMeTest(unittest.TestCase):
     def test_no_count_value_passed(self):
         proxies_list = ProxiesList()
         proxies = proxies_list.get()
-        self.assertEqual(len(proxies),300,"300 proxies were not returned")
+        self.assertGreaterEqual(len(proxies),295,"Greater than proxies were not returned")
 
 
 def suite():
