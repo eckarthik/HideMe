@@ -1,4 +1,4 @@
-# HideMe [![Python Badge](https://img.shields.io/badge/-Python-00000??style=flat-square&logo=python&logoColor=FFD43B&color=informational)](https://www.python.org/downloads/) [![Build Status](https://travis-ci.org/eckarthik/HideMe.svg?branch=master)](https://travis-ci.org/eckarthik/HideMe) [![Downloads](https://pepy.tech/badge/hideme)](https://pepy.tech/project/hideme) [![Downloads](https://pepy.tech/badge/hideme/week)](https://pepy.tech/project/hideme/week)
+# HideMe [![Python Badge](https://img.shields.io/badge/-Python-00000??style=flat-square&logo=python&logoColor=FFD43B&color=informational)](https://www.python.org/downloads/) [![Build Status](https://app.travis-ci.com/eckarthik/HideMe.svg?branch=master)](https://app.travis-ci.com/eckarthik/HideMe) [![Downloads](https://pepy.tech/badge/hideme)](https://pepy.tech/project/hideme) [![Downloads](https://pepy.tech/badge/hideme/week)](https://pepy.tech/project/hideme/week)
 
 HideMe is a python package for gathering usable proxies from free proxy webites
 can be installed via pip as follows.
