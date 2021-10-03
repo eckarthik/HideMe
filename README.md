@@ -2,6 +2,7 @@
 
 HideMe is a python package for gathering usable proxies from free proxy webites
 can be installed via pip as follows.
+Believe me It's fast
 
 ```
 pip install hideme
